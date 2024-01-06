@@ -16,7 +16,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 230px 0 230px;
+    padding: 50px 230px 0 150px;
 }
 
 nav ul li {
@@ -46,33 +46,46 @@ nav ul li a {
     font-weight: 700;
     color: #fff;
 }
+
 .btn-call {
-    margin: 30px ;
+    margin: 30px;
     border-radius: 5px;
     border: 1px solid #FD6E0A;
     background: #FFF8F3;
     color: #FD6E0A;
     width: 150px;
     height: 64px;
-    padding: 2px ;
+    padding: 2px;
     font-size: 20px;
     font-weight: 700;
 }
 
-.details{
+.details {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.details .name{
+
+.details .name {
     font-size: 85px;
-font-style: normal;
-font-weight: 700;
-margin: 5px 0 20 0;
+    font-style: normal;
+    font-weight: 700;
+    margin: 5px 0 20 0;
 }
 
-.details img{
+.details img {
     width: 584px;
-height: 676px;
+    height: 676px;
+}
+
+/* About styles */
+.about {
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    width: 1140px;
+height: 550px;
+margin: 130px 230px 0 230px;
+align-items: center;
+justify-content: center;
 }
