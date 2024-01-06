@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -39,9 +39,7 @@ nav ul li a {
     border-radius: 5px;
     border: none;
     background: #FD6E0A;
-    width: 150px;
-    height: 64px;
-    padding: 2px;
+    padding: 15px 35px;
     font-size: 20px;
     font-weight: 700;
     color: #fff;
@@ -49,13 +47,11 @@ nav ul li a {
 
 .btn-call {
     margin: 30px;
-    border-radius: 5px;
     border: 1px solid #FD6E0A;
     background: #FFF8F3;
     color: #FD6E0A;
-    width: 150px;
-    height: 64px;
-    padding: 2px;
+    border-radius: 5px;
+    padding: 15px 35px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -84,8 +80,104 @@ nav ul li a {
     border-radius: 10px;
     background-color: #FFF8F3;
     width: 1140px;
-height: 550px;
-margin: 130px 230px 0 230px;
-align-items: center;
-justify-content: center;
+    height: 550px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 156px 0 156px; */
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+
+}
+
+.about-title {
+    padding: 130px 130px 30px 130px;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-details {
+    max-height: 120px;
+    max-width: 827px;
+    text-align: center;
+    padding: 0 130px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.info-details {
+    text-align: center;
+}
+
+.exp-title {
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.exp-title p {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 90px;
+    width: 909px;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* exp card design */
+.exp-card {
+    margin: 0 230px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px;
+}
+
+.common {
+    border-radius: 5px;
+    background: #fff;
+    height: 377px;
+    width: 267px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+    width: 260px;
+    height: 370px;
+}
+.common p{
+    /* width: 201px; */
+    width: 201px;
+    height: 196px;
+    color: var(--Dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+margin: 30px;
+}
+.common h2{
+    margin: 30px;
+}
+.common img{
+    margin-left: 30px;
 }
